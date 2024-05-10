@@ -14,3 +14,8 @@
         // Подсчитываем количество строк в исходном массиве
         int originalLength = originalArray.Length;
 
+         // Создаем новый массив для строк длиной меньше или равной 3 символам
+        string[] newArray = new string[originalLength];
+        
+        int j = 0; // Инициализируем счетчик для нового массива
+
